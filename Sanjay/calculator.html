@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.Sanjay_kr.com</title>
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<style>
+
+		body{
+			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(wn2.jpg);
+			background-size: cover;
+
+		}
+
+*{box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+}
+
+.wrap{
+
+width: 400px;
+margin: auto;
+height: auto;
+background: black;
+padding: 15px;
+
+
+
+}		
+input[ type=text]
+{
+
+width: 100%;
+padding: 10px;
+font-size: 22px;
+font-weight: bold;
+margin-top:20px;
+border-radius: 5px;
+
+
+
+}
+
+
+input[type=button]{
+
+	width: 89px;
+	padding: 10px;
+	font-size: 17.4px;
+	border-radius: 5px;
+}
+#del{
+width: 362px;}
+
+ul
+ {
+ 	float: right;
+ 	list-style-type: none;
+ 	font-family: Century Gothic;
+ 	margin-right: 25px;
+ 	
+ }
+ ul li
+ {
+ 	display: inline-block;
+ }
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 7px 23px;
+	border: 2px solid #fff;
+	transition: 0.5s ease;
+	
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+	
+
+
+}
+img
+{
+	align-self: left;
+	margin-left: 11px;
+}
+
+</style>
+</head>
+<body>
+
+	<ul>
+<li><a href="My Dream.html"><i class="fa fa-home"></i></a></li>
+<li><a href="My maths.html">GO to MENU</a></li></ul>	
+	
+	<img src="s6kk.png" height="auto" width="140">
+
+	
+
+<div  class="wrap">
+<form name="cal">
+	<input type="text" name="display" id="display">
+	<br><br>
+	
+<input type="button" value="9" id="9" onclick="cal.display.value+='9'">
+<input type="button" value="8" id="8" onclick="cal.display.value+='8'">
+<input type="button" value="7" id="7" onclick="cal.display.value+='7'">
+<input type="button" value="+" id="+" onclick="cal.display.value+='+'">
+
+<br><br>
+
+<input type="button" value="6"id="6" onclick="cal.display.value+='6' ">
+<input type="button" value="5" id="5" onclick="cal.display.value+='5' ">
+<input type="button" value="4" id="4" onclick="cal.display.value+='4' ">
+<input type="button" value="-" id="-" onclick="cal.display.value+='-' ">
+<br><br>
+
+<input type="button" value="3" id="3" onclick="cal.display.value+='3' ">
+<input type="button" value="2" id="2" onclick="cal.display.value+='2' ">
+<input type="button" value="1" id="1"onclick="cal.display.value+='1' ">
+<input type="button" value="*" id="*"onclick="cal.display.value+='*' ">
+
+<br><br>
+
+<input type="button" value="0"id="0" onclick="cal.display.value+='0' ">
+<input type="button" value="/"onclick="cal.display.value+='/' ">
+<input type="button" value="Click me!" onclick="cal.display.value+='You are the biggest mad ever!!!' ">
+
+<input type="button" value="=" id="="onclick="cal.display.value = eval(cal.display.value) ">
+
+<br><br>
+
+
+<input type="button" value="DELETE"  onclick="cal.display.value= '' " id= "del">
+
+</form>     
+
+</div>
+
+</body>
+</html>
